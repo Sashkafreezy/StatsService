@@ -57,9 +57,9 @@ public class StatsService {
             if (sale >= sales[maxMonth]) {
                 maxMonth = month;
             }
+            month = month + 1;
         }
-        maxMonth += 1;
-        return maxMonth;
+        return maxMonth +1;
     }
 
 }
